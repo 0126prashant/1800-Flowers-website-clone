@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    border: 2px solid ;
+    width: 100%;
+}
+#hello{
+    color: brown;
+}
+/* .nav_login_logos{
+    margin-left: 500px;
+} */
+#search_nav{
+   border: 1px solid gray;
+   margin: auto;
+   width: 45%;
+   height: 30px;
+   border-radius: 5px;
+   
+}
+#search_nav > input{
+    border:none;
+    width: 80%;
+    margin: auto;
+    outline: none;
+}
+#search_nav > button{
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    margin: auto;
+   border:none;
+   width: 19.1%;
+   height: 100%;
+   color: white;
+   background-color: rgb(110, 50, 144);
+}
+/* Logo start here--------------->>>>>>>>>>>. */
+.nav_login_logos {
+    width: 300px;
+    /* border :1px solid; */
+}
+.nav_login_logos > div {
+    /* display: flex; */
+    justify-content: space-between;
+    margin: auto;
+    /* border :1px solid red */
+}
+.nav_login_logos > div span {
+    font-size: 10px;
+
+}
+
+/* --------------------------------------MEGA  MENU ------------------------------ */
+
+.megaMenu{
+    width: 2px solid gray;
+    
+}
