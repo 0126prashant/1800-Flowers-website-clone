@@ -1,0 +1,125 @@
+.Home-container > .two-in-one{
+  
+}
+.Home-container h1{
+   text-align: center;
+}
+.Home-container > div > img{
+   width: 100%;
+}
+
+#Send-flowers{
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   gap: 10px;
+   text-align: center;
+   /* border: 1px solid red; */
+}
+#Send-flowers img{
+   overflow: hidden;
+   /* border: 1px solid red; */
+   width: 100%;
+   transition: all 0.3s ease;
+}
+#Send-flowers img:hover{
+   transform: scale(1.2);
+}
+.birthday-special{
+   margin-top: 50px;
+}
+
+/* -------------------------------Form----------home-----ocassion -------- */
+.form-home-occasion{
+   display: flex;
+   background-color: #ffffffdd;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   width: 70%;
+   margin: auto;
+   position: relative;
+   bottom: 40px;
+   
+}
+.form-home-occasion h4{
+   white-space: nowrap;
+ position: relative;
+ left: 10px;
+}
+.form-home-occasion button{
+   white-space: nowrap;
+   height: 23px;
+   color: white;
+   border: none;
+  border-radius: 3px;
+  margin-right: 5%;
+  margin: auto;
+   background-color: rgb(110, 50, 144);
+   position: relative;
+   right: 45px;
+}
+.Find-perfecti-gift{
+   display: flex;
+   margin-left: 50px;
+   margin-right: 50px;
+   /* gap: 10px; */
+}
+.hero{
+    margin-right: 10px;
+}
+.hero select{
+   height: 22px;
+   width: 150px;
+}
+
+/* ----------------two-spring-bulb-------------- */
+.two-spring-htag{
+   color:rgb(110, 50, 144);
+  text-align: center;
+}
+.two-spring-bulb{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   width: 70%;
+   margin: auto;
+   gap: 20px;
+}
+.two-spring-bulb>img{
+
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+/* -----------------selfcare---------------- */
+.selfcare{
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   gap: 5px;
+   overflow: hidden;
+}
+.selfcare > img{
+   width: 100%;
+   transition: all 0.3s ease;
+   
+}
+.selfcare > img:hover{
+   transform: scale(1.1);
+}
+.delicious-gift{
+   text-align: center;
+   /* border: 1px solid red; */
+   color: rgb(110, 50, 144);
+  
+}
+.gifts-and-more{
+   margin-top: 20px;
+}
+.gifts-and-more >div{
+   margin: auto;
+   width: 35%;
+   /* border: 2px solid red; */
+   position: relative;
+   bottom: 300px;
+}
+.gifts-and-more >div>img{
+   height: 230px;
+   width: 100%;
+
+}
