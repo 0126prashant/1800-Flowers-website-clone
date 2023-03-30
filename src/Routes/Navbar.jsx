@@ -1,14 +1,17 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import "../css/Navbar.css"
-// import logo from "../images/logo.png"
+import logo from "../images/logo.png"
+import 'typeface-poppins';
+
 
 function Navbar() {
   return (
     <>
    <nav className='container'>
-   <h1 id='hello'>Logo</h1>
-    {/* <img src={logo} alt="picture"/> */}
+   <Link to="/"> <div className='logo'>
+     <img src={logo} alt="picture"/>
+    </div></Link>
     <div id='search_nav'>
     <input placeholder='What are you looking for?'/>
     <button>SEARCH</button>
@@ -29,6 +32,20 @@ function Navbar() {
     </div>
     </div>
     </nav>
+    <div className='navbar-links'>
+      <div><h4>EASTER</h4></div>
+      <div><h4>SPRING</h4></div>
+      <div><h4>BIRTHDAY</h4></div>
+      <div><h4>SYMPATHY</h4></div>
+      <div><h4>OCCASIONS</h4></div>
+      <div><h4>FLOWERS</h4></div>
+      <div><h4>PLANTS</h4></div>
+      <div><h4>GIFTS BASKETS & FOOD</h4></div>
+      <div><h4>GIFTS & MORE</h4></div>
+      <div><h4>SAME-DAY DELIVERY</h4></div>
+      <div><h4>SALE</h4></div>
+      <div><h4>COMMUNITY</h4></div>
+    </div>
     {/* <div className='megaMenu'>
        <ul>
         <li>

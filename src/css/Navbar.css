@@ -1,14 +1,35 @@
+.navbar-links{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    border-top: 1px solid rgb(47, 47, 47);
+    border-bottom: 1px solid rgb(47, 47, 47);
+}
+.navbar-links > div{
+    font-size: 13px;
+    margin-left: 12px;
+    white-space: nowrap;
+    font-family: 'Poppins';
+    color: rgb(47, 47, 47);
+}
+
 .container{
     display: flex;
-    border: 2px solid ;
+    /* border: 2px solid ; */
     width: 100%;
+    margin-top: 10px;
 }
-#hello{
-    color: brown;
+.logo > img{
+    width: 110px;
+    position: absolute;
+
 }
-/* .nav_login_logos{
-    margin-left: 500px;
-} */
+.logo {
+    width: 100px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
 #search_nav{
    border: 1px solid gray;
    margin: auto;

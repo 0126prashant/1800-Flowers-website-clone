@@ -1,6 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from "../Components/Footer"
 import  "../css/Home.css"
+import poster from "../images/poster.png"
+import { AiFillStar } from "react-icons/ai";
+import { BiRightArrowAlt } from "react-icons/bi";
+import 'typeface-poppins';
+
 
 function Home() {
 
@@ -87,6 +93,145 @@ function Home() {
           <img src='https://img.freepik.com/free-photo/blossom-floral-bouquet-decoration-colorful-beautiful-flowers-background-garden-flowers-plant-pattern-wallpapers-greeting-cards-postcards-design-wedding-invites_90220-1103.jpg?w=1060&t=st=1680109152~exp=1680109752~hmac=cdd0edb15742608d3a43ca946879b00b77543a3fcd36e8f2410c11304b1af870' alt='my-choice'/>
           </div>
         </div>
+         
+         <h2 style={{textAlign:"center"}}>Trending Flowers & Gifts</h2>
+         <div className='eight-images'>
+        <div>
+          <img src='https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191309lz.jpg?quality=85&auto=webp&optimize={medium}' alt='err'/>
+          <p>Spring Sensation™</p>
+        </div>
+        <div>
+          <img src='https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191254xlx.jpg?width=545&height=597&quality=80&auto=webp&optimize={medium}' alt='err'/>
+          <p>Fields Of Europe® </p>
+        </div>
+        <div>
+          <img src='https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/90925mpuv5ch29x.jpg?width=545&height=597&quality=80&auto=webp&optimize={medium}' alt='err-3'/>
+          <p>Two Dozen Assorted Roses</p>
+        </div>
+        <div>
+          <img src='https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/91158mmmj2sc9x.jpg?width=545&height=597&quality=80&auto=webp&optimize={medium}' alt='err-4'/>
+          <p>Sweet Spring Lily Bouquet</p>
+        </div>
+        <div>
+          <img src='https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/158024lg1x.jpg?width=545&height=597&quality=80&auto=webp&optimize={medium}' alt='err-5'/>
+          <p>Delightful Daffodil Bulbs </p>
+        </div>
+        <div>
+          <img src='https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/90577mprsv1sc9x.jpg?width=545&height=597&quality=80&auto=webp&optimize={medium}' alt='err-6'/>
+          <p>Assorted Tulip Bouquet</p>
+        </div>
+        <div>
+          <img src='https://cdn3.1800flowers.com/wcsstore/Flowers/images/catalog/191310lx.jpg?width=545&height=597&quality=80&auto=webp&optimize={medium}' alt='err-7'/>
+          <p>Spring Sentiment™ Bouquet</p>
+        </div>
+        <div>
+          <img src='https://cdn1.1800flowers.com/wcsstore/Flowers/images/catalog/191308lx.jpg?width=545&height=597&quality=80&auto=webp&optimize={medium}' alt='err-8'/>
+          <p>Pastel Posy™ Bouquet</p>
+        </div>
+        </div>
+
+        <div className='free-shipping-poster' >
+          <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltacd983b63a7ffb07/63c5ccc2eeda2410c17f4286/Post_Enrollment_Desktop_V2_Image_(2).png?quality=85&auto=webp&optimize={medium}' alt='free-shipping'></img>
+        </div>
+          
+         <h2 style={{textAlign:"center"}}>  Share Your #MadeMeSmile Flowers Moment</h2>
+        <div className='insta-icon-four-images'>
+         <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltbcf30ced0a418919/63fcd5c452820c02597c04e3/ugc-image-fields-of-europe-spring.jpg?quality=85&auto=webp&optimize={medium}'/>
+         <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt9536a0b1f715fd80/63fcd60582b5176dad0999c4/ugc-image-assorted-tulip-bouquet.jpg?quality=85&auto=webp&optimize={medium}'/>
+         <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltf96a2f03a42e1c17/63fcd62d16515710b8ed4694/ugc-image-sorbet-roses.jpg?quality=85&auto=webp&optimize={medium}'/>
+         <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt205c41fe8e8ce8f6/63fcd65eff1d0646c816f367/ugc-image-marble-queen-pothos-plant.jpg?quality=85&auto=webp&optimize={medium}'/>
+        </div>
+
+      <h2 className='rating-heading'>Some of the Great Things Our Customers Say About Us</h2>
+      <div className='rating'>
+         <div>
+          <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt4c9be4e2d955776a/602a81580aba282006983f75/hp-reviews-final-167891.png?quality=70&auto=webp&optimize={medium}' alt='1st-img'/>
+          <div className='start-color'>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          </div>
+          <h5>Beautiful</h5>
+          <p>"I bought these for my Nana's birthday she said they were amazingly beautiful!"</p>
+          <h5>- Pamela</h5>
+         </div>
+
+         <div>
+          <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt2b874f93791fce4a/62b09064482ba357e65ddbe8/web_icons_125x125_ocean_breeze_orchids.png?quality=60&auto=webp&optimize={medium}' alt='2nd-img'/>
+          <div className='start-color'>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          </div>
+          <h5>Best Flowers</h5>
+          <p>"These flowers are beautiful and just as vibrant as the picture. One of the most beautiful bouquets I have ever seen!"</p>
+          <h5>- Michelle</h5>
+         </div>
+
+         <div>
+          <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blte0c04d8be69858b7/6259b075b9aa584a4e32649f/web_icons_125x125_classic_budding_rose.png?quality=60&auto=webp&optimize={medium}' alt='3-img'/>
+          <div className='start-color'>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          </div>
+          <h5>Very Happy!</h5>
+          <p>"I love how the recipient can plant the roses and enjoy them for a long time. The plant is healthy and the candle I ordered with it smells great!"</p>
+          <h5>- Betty</h5>
+         </div>
+
+         <div>
+          <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/blt854645311f2a8ec4/621cf518ba043c4a2c4a9a54/web_icons_125x125_Gourmet_Drizzled_Berries-v2.png?quality=60&auto=webp&optimize={medium}' alt='4-img'/>
+          <div className='start-color'>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          <AiFillStar/>
+          </div>
+          <h5>Sweet Anniversary</h5>
+          <p>"The strawberries arrived on time and were fantastics as always. Definitely made my anniversary a lot sweeter!"</p>
+          <h5>- Brian</h5>
+         </div>
+      </div>
+      <div className='powered-by-img'>
+         <p>Powered by</p>
+         <div>
+           <img src='https://images.contentstack.io/v3/assets/bltdd99f24e8a94d536/bltcf637a6e16efdb8e/5ea9acbed4b10d15d3e8cfb3/yotpo-logo.png?quality=70&auto=webp&optimize={medium}'/>  
+         </div>
+         </div>
+       <div>
+        <img src={poster} alt="poster"/>
+       </div>
+       <div className='deliver-heading'>
+      <h4>More About Our Flower Delivery <BiRightArrowAlt/></h4>
+
+      <div className='color'>
+        <h5>Send Flowers Online with Flower Delivery by 1-800-Flowers.com, the World's Favorite Florist!</h5>
+      <p>There's no better place to order flowers online than 1-800-Flowers.com. Whether you're looking to buy flowers and gifts like roses, orchids, gift baskets, bonsai trees, flowering plants or wedding bouquets, we have the highest quality blooms and the most talented florists who can create exactly what you order. Dazzle and delight your loved ones wherever they may be with truly original flowers and gifts from 1-800-Flowers.com.</p>
+      </div>
+      <div className='color'>
+        <h5>Quick Flower Delivery and Great Customer Service</h5>
+      <p>Same-day flower delivery is available every day, for all seasons: spring, winter, summer and fall. To send flowers for same-day delivery, all you have to do is place your order by the following times in the gift receiver's time zone: 2:30 p.m. weekdays, 1:15 p.m. Saturdays, and 11:45 a.m. Sundays. Our customer service team is standing by to help you with any gift or flower order. Whether you're sending red roses to your sweetie, celebrating a birthday, or sending a get well gift to someone feeling under the weather, if you have questions, our team has answers! Just call 1-800-356-9377 or place an order for flower delivery online. We will help you find and deliver the perfect flowers, plants, or gift to celebrate life's most meaningful moments - from birthday gift recommendations, to anniversary floral arrangements she is sure to love.
+      </p>
+      <p> For sympathy gifts and funeral flowers, our team of experienced Sympathy Advisors are ready to assist you at 1-866-538-2259.</p>
+      <div className='color'>
+        <h5>Send Flowers Internationally</h5>
+      <p>We deliver flowers across the United States and around the world. If you want to send flowers internationally, trust us to deliver your most heartfelt messages. Because of our partnerships with local florists and flower growers, we are able to ensure that bouquets are delivered fresh from the field and on time. Our flower arrangements are artfully created and delivered perfectly arranged by professional florists.</p>
+      </div>
+      </div>
+
+      </div>
+
+
+   <Footer/>
+
      </div>
     </>
   )
