@@ -38,7 +38,7 @@ function Navbar() {
       <div><h4>BIRTHDAY</h4></div>
       <div><h4>SYMPATHY</h4></div>
       <div><h4>OCCASIONS</h4></div>
-      <div><h4>FLOWERS</h4></div>
+      <div><Link to="/product"><h4>FLOWERS</h4></Link></div>
       <div><h4>PLANTS</h4></div>
       <div><h4>GIFTS BASKETS & FOOD</h4></div>
       <div><h4>GIFTS & MORE</h4></div>

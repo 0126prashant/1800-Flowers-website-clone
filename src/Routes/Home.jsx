@@ -10,6 +10,21 @@ import 'typeface-poppins';
 
 function Home() {
 
+  // const [data,setData] = useState([])
+  // const [filterByColor, setFilterByColor] = useState(null);
+  // useEffect(() => {
+  //   axios.get(`http://localhost:8080/flowers` )
+  //     .then((res) => res.data)
+  //     .then(data =>{
+  //       let filteredData =data ;
+  //         if (filterByColor) {
+  //           filteredData = data.filter(data => data.color === filterByColor);
+  //         }
+  //         setData(filteredData)
+  //     })
+  
+  //     .catch((err) => alert(err));
+  // }, [filterByColor]);
 
   return (
     <>
