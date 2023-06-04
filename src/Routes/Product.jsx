@@ -22,7 +22,7 @@ function Product() {
 
   useEffect(() => {
     setIsLoading(true);
-    axios.get(`http://localhost:8080/flowers`, {
+    axios.get(`https://v6dej6.sse.codesandbox.io/flowers`, {
       params: {
         _sort: "price",
         _order: order
@@ -50,14 +50,14 @@ function Product() {
   }
 
   const handleCartfun = (id) => {
-    return axios.get(`http://localhost:8080/flowers/${id}`);
+    return axios.get(`https://v6dej6.sse.codesandbox.io/flowers/${id}`);
   };
 
   const addToCart = (ele) => {
     handleCartfun(ele.id)
       .then((res) => {
         setCartItems(res.data);
-        return axios.post("http://localhost:8080/cart", res.data);
+        return axios.post("https://v6dej6.sse.codesandbox.io/cart", res.data);
       })
       .then(() => {
         alert("Product Added Successfully");
@@ -68,7 +68,7 @@ function Product() {
 
   const getData = () => {
     setIsLoading(true);
-    axios.get(`http://localhost:8080/cart`)
+    axios.get(`https://v6dej6.sse.codesandbox.io/cart`)
       .then((res) => setCartItems3(res.data))
       .catch((err) => alert(err))
       .finally(() => setIsLoading(false));
@@ -81,32 +81,7 @@ function Product() {
   const pageCount = Math.ceil(data.length / pageSize);
   const startIndex = (currentPage - 1) * pageSize;
   const pagedData = data.slice(startIndex, startIndex + pageSize);
-// const addToCart = (ele) => {
-//   // console.log(ele)
-//   handleCartfun(ele.id) .then((res)=> setCartItems2(res.data))
-
-//   async function handlePostData(){    
-//   try {
-//     let res= await fetch("http://localhost:8080/cart",{
-//        method:"POST",
-//            headers:{
-//              'Content-Type' : 'application/json'
-//            },
-//            body:JSON.stringify(cartItems2)
-//     });
-  
-//     alert("Product Added Successfuly")
-//     // console.log(res)
-//   } catch (error) {
-//     console.log(error)
-//   }
-//  }
-
-//  handlePostData();
-// getData()
-//  }
- 
- 
+   
   return (
     <>
 

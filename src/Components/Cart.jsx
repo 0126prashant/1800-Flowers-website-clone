@@ -23,7 +23,7 @@ function Cart() {
   //   .then((res) => setCartItems(res.data.map((item) => ({ ...item, quantity: 1 }))))
   //   }
   function fetchCartData() {
-    axios.get(`http://localhost:8080/cart`)
+    axios.get(`https://v6dej6.sse.codesandbox.io/cart`)
       .then((res) => {
         const cartItemsWithDefaultQuantity = res.data.map(item => ({...item, quantity: 1}));
         setCartItems(cartItemsWithDefaultQuantity);
@@ -32,7 +32,7 @@ function Cart() {
 
   
   const handleRemoveItem = (itemId) => {
-    axios.delete(`http://localhost:8080/cart/${itemId}`)
+    axios.delete(`https://v6dej6.sse.codesandbox.io/cart/${itemId}`)
       .then(() => fetchCartData())
       .catch((error) => console.log(error));
   }
@@ -45,7 +45,7 @@ function Cart() {
       updatedCartItems[itemIndex].quantity -= 1;
     }
     setCartItems(updatedCartItems);
-    axios.put(`http://localhost:8080/cart/${itemId}`, updatedCartItems[itemIndex])
+    axios.put(`https://v6dej6.sse.codesandbox.io/cart/${itemId}`, updatedCartItems[itemIndex])
       .catch((error) => console.log(error));
   };
   
